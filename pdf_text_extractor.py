@@ -26,5 +26,5 @@ if __name__ == "__main__":
     line_break_words = read_break_words_from_file(break_word_file)
     cleaned_text = clean_text(extracted_text, line_break_words)
 
-    truncated_text = cleaned_text[:10000]
+    truncated_text = cleaned_text[:30000]
     print(truncated_text)
